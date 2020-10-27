@@ -3,6 +3,11 @@ public class BankAccount{
  private int accountID;
  private String password;
  
+ public BankAccount(int accID, String pwd){
+  balance = 0;
+  accountID = accID;
+  password = pwd;
+ }	
 
 
 }
